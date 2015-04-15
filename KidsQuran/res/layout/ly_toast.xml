@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toast_bg_success_color" >
+
+       <ImageView
+           android:id="@+id/toastIcon"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_centerInParent="true"
+           android:src="@drawable/ic_action_accept" />
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/sep"
+        android:gravity="center_vertical|right"
+        android:textColor="@color/toast_text_color"
+        android:textSize="16sp" />
+    
+   
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/textMessage"
+        android:background="@drawable/toast_drop_shadow" />
+     <View
+        android:id="@+id/sep"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_view"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/toastIcon"
+        android:background="@drawable/toast_drop_shadow"
+        android:paddingLeft="5dp" />
+
+</RelativeLayout>

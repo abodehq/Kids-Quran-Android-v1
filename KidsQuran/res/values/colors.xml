@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <color name="gray">#fff</color>
+      <color name="green">#00ff00</color>
+      
+     <color name="toast_text_color">#fff</color>
+    <color name="toast_bg_success_color">#ff34dd44</color>
+      <color name="toast_bg_info_color">#33B5E5</color>
+     <color name="toast_bg_error_color">#ff0000</color>
+       <color name="list_background_pressed">#Eeeeee</color>
+     <color name="list_background_pressed2">#73706F</color>
+     
+     
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e76486</color>
+    <color name="pink_pressed">#000000</color>
+    
+     <color name="blue">#6c9cef</color>
+    <color name="blue_pressed">#000000</color>
+    
+     <color name="green1">#04c72b</color>
+    <color name="green_pressed">#000000</color>
+    
+    <color name="mag">#c706ad</color>
+    <color name="mag_pressed">#000000</color>
+      <color name="sub_theme_text_color">#c78b0a</color>
+      <color name="sub_theme_text_color_op2">#676767</color>
+           <color name="sub_theme_bg_color">#e8e8e8</color>
+    
+    <color name="brown">#a27f59</color>
+    <color name="brown_pressed">#000000</color>
+     <color name="orange">#ff9900</color>
+    <color name="orange_pressed">#000000</color>
+    
+     <color name="red">#e91e63</color>
+    <color name="red_pressed">#000000</color>
+    
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+</resources>

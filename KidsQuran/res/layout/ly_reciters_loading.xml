@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/ly_main_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/img_bg_1" >
+
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reciters_loading_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/reciters_loading_bg"
+        android:paddingBottom="25dp"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/ly_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_reciter"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/btn_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/drw_reciters_load" />
+        </RelativeLayout>
+        
+    <ImageView
+        android:id="@+id/img_reciter_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rippertop" />
+
+        <ImageView
+            android:id="@+id/img_reciter"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/img_reciter_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/reciter_1" />
+        
+        <RelativeLayout
+            android:id="@+id/ly_pb_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_reciter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" >
+
+ <ImageView
+        android:id="@+id/img_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/progressbar_bg" />
+
+<ProgressBar
+    android:id="@+id/progressbar1"
+    style="@android:style/Widget.ProgressBar.Horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/img_pb"
+    android:layout_alignBottom="@+id/img_pb"
+    android:layout_alignLeft="@+id/img_pb"
+    android:layout_alignRight="@+id/img_pb"
+    android:layout_alignTop="@+id/img_pb"
+   
+    android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/ly_cancel_load"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ly_pb_container"
+    android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/btn_cancel_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/drw_reciters_cancel_load" />
+        </RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/ly_select"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/img_reciter"
+    android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/btn_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/drw_reciters_select" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/reciters_loading_container"
+        android:layout_alignTop="@+id/reciters_loading_container" >
+    
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitEnd"
+            android:src="@drawable/drw_reciters_loading_close" />
+        
+            </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/reciters_loading_container"
+        android:layout_alignLeft="@+id/reciters_loading_container"
+        android:layout_alignRight="@+id/reciters_loading_container"
+        android:layout_alignTop="@+id/reciters_loading_container"
+        android:background="@drawable/reciters_loading_selected" >
+
+    </FrameLayout>
+
+</RelativeLayout>

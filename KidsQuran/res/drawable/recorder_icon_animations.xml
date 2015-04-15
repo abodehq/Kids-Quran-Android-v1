@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list 	
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/recordanim"
+	android:oneshot="false"
+	>
+	
+    <item android:drawable="@drawable/record_red_icon" android:duration="350" />
+    <item android:drawable="@drawable/record_grey_icon" android:duration="350" />	
+
+</animation-list>

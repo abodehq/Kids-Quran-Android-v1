@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector2"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	
+    
+	<!-- Title Of Song-->
+	<!-- Artist Name -->
+
+    <TextView
+        android:id="@+id/txt_playLists_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:typeface="sans" />
+
+</RelativeLayout>

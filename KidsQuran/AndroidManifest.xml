@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isslam.kidsquran"
+    android:versionCode="4"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+     <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- android:largeHeap = "true" -->  
+	<application
+	    android:largeHeap="true"
+       android:name=".DBActivity"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+       android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.isslam.kidsquran.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.isslam.kidsquran.Content"  android:screenOrientation="landscape" /> 
+  <activity android:name="com.isslam.kidsquran.MainActivity"  android:screenOrientation="landscape" /> 
+   <activity android:name="com.isslam.kidsquran.HomeActivity"  android:screenOrientation="landscape" /> 
+    <activity android:name="com.isslam.kidsquran.SurasActivity"  android:screenOrientation="landscape" /> 
+  <activity android:name="com.isslam.kidsquran.RecitersActivity"  android:screenOrientation="landscape" /> 
+  <activity android:name="com.isslam.kidsquran.RecitersLoadingActivity"  android:screenOrientation="landscape" /> 
+   <activity android:name="com.isslam.kidsquran.ViewPagerActivity"  android:screenOrientation="landscape" /> 
+  <activity android:name="com.isslam.kidsquran.AwardsActivity"  android:screenOrientation="landscape" /> 
+  <activity android:name="com.isslam.kidsquran.AchievementsActivity"  android:screenOrientation="landscape" /> 
+  
+  
+     <service 
+            android:enabled="true"
+            android:name=".DownloadService"
+             android:permission="com.isslam.kidsquran.MY_SERVICE_PERMISSION" 
+         />
+        <!--    android:exported="true"
+            android:permission="com.isslam.kidsquran.MY_SERVICE_PERMISSION"  -->
+    </application>
+
+</manifest>

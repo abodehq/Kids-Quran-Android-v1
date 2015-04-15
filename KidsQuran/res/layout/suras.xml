@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.isslam.kidsquran.MyLinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center" >
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_110" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_109" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_108" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_107" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_114" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_113" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_112" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ly_sura_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/img_bg_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/drw_sura_bg" />
+
+                    <ImageView
+                        android:id="@+id/img_sura_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/s_111" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </com.isslam.kidsquran.MyLinearLayout>
+
+</LinearLayout>

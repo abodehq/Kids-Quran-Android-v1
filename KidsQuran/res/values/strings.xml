@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="share_condition"> عليك تحميل هذه السورة لتتمكن من مشاركتها . </string>
+      <string name="reciters_pre"> القارئ </string>
+      <string name="download_progress"> تحميل جزء عمَ</string>
+      <string name="download_complete_pre"> لقد تم تحميل سورة </string>
+<string name="download_complete_after"> بنجاح </string>
+<string name="download_exist_after"> من قبل !!  </string>
+<string name="download_start_pre"> تم اضافة سورة  </string>
+<string name="download_start_after">  الى قائمة مدير التنزيلات </string>
+<string name="download_success"> الاتصال بالانترنت </string>
+<string name="downloading_file_error"> حدث خلل اثناء تحميل سورة </string>
+<string name="downloading_file_success"> لقد تم بنجاح تحميل سورة </string>
+<string name="downloading_file_success_after"> للقارئ </string>
+<string name="setting_language_title"> اللغة المختارة </string>
+<string-array name="arr_languages_items">
+        <item >العربية</item>
+        <item >English ( United States )</item>
+    </string-array>
+    <string-array name="arr_languages_locals">
+        <item >ar</item>
+        <item >en</item>
+    </string-array>
+ 
+    <string-array name="arr_languages_ids">
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    
+    <string name="app_name">جزء عمَ</string>
+    
+     <string name="app_exit">هل تريد الخروج من البرنامج</string>
+    <string name="app_exit_confirm">موافق</string>
+     <string name="app_exit_cancle">إلغاء</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="athkar_pre"></string>
+         <string name="share_title"> شارك تطبيق المصحف المعلم جزء عمَ </string>
+    <string name="share_body"> حمل تطبيق جزء عمَ مجانا . فانه تطبيق تفاعلي للأطفال لتعلم وحفظ القرآن لجزء عمً بطريقة ممتعة و محفزه بشكل مميز. ... حمله الان !! </string>
+          <string name="share_extra">  من أذكار الطفل المسلم </string>
+  
+
+    
+</resources>

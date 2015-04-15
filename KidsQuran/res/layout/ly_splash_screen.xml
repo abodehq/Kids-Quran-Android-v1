@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_main_splash"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/img_bg_1_1"
+    tools:context=".SplashScreenActivity" >
+
+        <FrameLayout
+            android:id="@+id/ly_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/contentbg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/asdbg" />
+
+            <ImageView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/asdenter" />
+
+        </FrameLayout>
+   <RelativeLayout
+       android:id="@+id/ly_strip"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="false"
+       android:layout_centerVertical="true"
+       android:background="@drawable/splash_strip"
+       android:gravity="center_vertical"
+       android:paddingBottom="15dp"
+       android:paddingTop="15dp" >
+
+            <LinearLayout
+                android:id="@+id/ly_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="المصحف المعلم جزء عمَ"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="Logo"
+                    android:src="@drawable/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_slogan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:layout_centerHorizontal="true" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="طريقة حياة"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:text="الاسلام"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#9c6727" />
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="Logo"
+                    android:src="@drawable/library_icon" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+      
+   <RelativeLayout
+       android:id="@+id/ly_pb_container"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/ly_strip"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="10dp"
+       android:layout_marginTop="10dp" >
+
+ <ImageView
+        android:id="@+id/img_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/progressbar_bg" />
+
+<ProgressBar
+    android:id="@+id/progressbar1"
+    style="@android:style/Widget.ProgressBar.Horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/img_pb"
+    android:layout_alignBottom="@+id/img_pb"
+    android:layout_alignLeft="@+id/img_pb"
+    android:layout_alignRight="@+id/img_pb"
+    android:layout_alignTop="@+id/img_pb"
+   
+    android:background="@android:color/transparent" />
+    </RelativeLayout>
+    
+    <com.isslam.kidsquran.FloatingActionButton
+       
+        android:id="@+id/btn_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_icon="@drawable/ic_action_important"
+        fab:fab_colorNormal="@color/orange"
+        fab:fab_colorPressed="@color/orange_pressed"
+          android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+       
+             android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        
+       />
+	 
+      <com.isslam.kidsquran.FloatingActionButton
+       
+        android:id="@+id/btn_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          fab:fab_icon="@drawable/ic_action_view_as_grid"
+        fab:fab_colorNormal="@color/mag"
+        fab:fab_colorPressed="@color/mag_pressed"
+          android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+      
+             android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        
+       />
+
+</RelativeLayout>

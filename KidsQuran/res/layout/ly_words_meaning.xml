@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/reciters_loading_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+<ImageView
+    android:id="@+id/dialog_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/dialog_bg1" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btn_recording_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/reciters_loading_container"
+        android:layout_alignTop="@+id/reciters_loading_container"
+        android:layout_weight="1"
+        android:src="@drawable/drw_start_records_close" />
+
+     <RelativeLayout
+         android:id="@+id/ly_recording_first"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/reciters_loading_container"
+         android:layout_alignLeft="@+id/reciters_loading_container"
+         android:layout_alignRight="@+id/reciters_loading_container"
+         android:layout_below="@+id/btn_recording_close"
+         android:layout_centerInParent="true"
+         android:layout_marginLeft="30dp"
+         android:layout_marginRight="30dp" >
+
+         <TextView
+             android:id="@+id/txt_words"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:gravity="right"
+             android:text="المعصرات : الثلج\nالنوم : التعب"
+             android:textColor="@android:color/black"
+             android:textSize="28sp" />
+
+    </RelativeLayout>
+</RelativeLayout>
