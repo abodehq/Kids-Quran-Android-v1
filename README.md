@@ -39,12 +39,13 @@ Api >11
 <br/>}
 <br/>Applications Sounds Path
 <br/>Khalefa Altangy (خليفة الطنجي): /assets/mp3_compress/1.zip
-<br/>Mohammad Elmenshawi (محمد المنشاوي): /assets/mp3_compress/1.zip
-<br/>Alsudais(السديس) : /assets/mp3_compress/1.zip
+<br/>Mohammad Elmenshawi (محمد المنشاوي): /assets/mp3_compress/2.zip
+<br/>Alsudais(السديس) : /assets/mp3_compress/3.zip
 <br/>
-Mshari Alefasy (مشاري العفاسي): /assets/mp3_compress/1.zip
+Mshari Alefasy (مشاري العفاسي): /assets/mp3_compress/4.zip
 <br/>
-Ibrahim Aldosary(ابراهيم الدوسري رواية ورش) : /assets/mp3_compress/1.zip
+Ibrahim Aldosary(ابراهيم الدوسري رواية ورش) : /assets/mp3_compress/5.zip
+
 <br/>
 ////////////////////////END
 <br/>
