@@ -52,12 +52,12 @@ Content Data, Images,Fonts,....
 والله الموفق
 
 snap shots:
-![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/master/img1.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/KidsQuran/master/img1.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/master/img2.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/KidsQuran/master/img2.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/master/img3.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/KidsQuran/master/img3.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/master/img4.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/KidsQuran/master/img4.png)
 
-![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/master/img5.png)
+![alt tag](https://raw.githubusercontent.com/abodehq/Kids-Quran-Android-v1/KidsQuran/master/img5.png)
