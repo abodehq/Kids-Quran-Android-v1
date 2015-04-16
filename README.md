@@ -60,15 +60,17 @@ assets/APP_Base_GUI.psd
 Features:
 SQLITE Data Base Manager
 <br/>
-Widget With Scrolling list<br/>
-Pagers And pager Fragments<br/>
-Navigation Drawer Items Menu<br/>
-Share Preferences<br/>
-Splash Screen<br/>
-Sittings Manager<br/>
-Sliding Panel<br/>
-Undo Manager<br/>
-Content Data, Images,Fonts,....
+Media Player Manager
+<br/>
+Download Thread & Service Manager
+<br/>
+Unzip Extractor
+<br/>
+High Qualit Images Renderer 
+<br/>
+Floating Buttons
+<br/>
+Dialog Fragments,Pager,Animation,Particles , .....
 ---------------------------------
 تطبيق تفاعلي للأطفال لتعلم وحفظ القرآن لجزء عمً بطريقة ممتعة و محفزه بشكل مميز.
 تطبيق موجه للفئات العمرية من ٣ سنوات حتى 20 سنة . مع انه يمكن للكبار التمتع باستخدامه. :)
