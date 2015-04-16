@@ -12,6 +12,11 @@ You can use it free for Islamic Apps Only >>> ( FREE ISLAMIC APPS ONLY)
 
 DEMO : https://play.google.com/store/apps/details?id=com.isslam.kidsquran
 <br/>
+Libraries need to Run the project : ( Included in the git hub project root ) <br/>
+1-LibImageZoom<br/>
+2-ParticleSystemView<br/>
+
+<br/>
 Api >11
 <br/>-------------Data Base ------------------------
 <br/>لفتح ملفات الداتا بيز 
