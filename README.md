@@ -8,47 +8,54 @@ You can use it free for Islamic Apps Only >>> ( FREE ISLAMIC APPS ONLY)
 يمكنكم استخدام جميع الملفات في البرامج الاسلامية المجانية فقط !!
 ----------
 المصحف المعلم جزء عم -- للاندرويد
-
+<br/>
 
 DEMO : https://play.google.com/store/apps/details?id=com.isslam.kidsquran
-
+<br/>
 Api >11
--------------Data Base ------------------------
-لفتح ملفات الداتا بيز 
-Data Base Path: KidsQuran\assets\book_db 
-SQLite Editor :http://sqlitebrowser.org
-////////////////////////END
+<br/>-------------Data Base ------------------------
+<br/>لفتح ملفات الداتا بيز 
+<br/>Data Base Path: KidsQuran\assets\book_db 
+<br/>SQLite Editor :http://sqlitebrowser.org
+<br/>////////////////////////END
 
--------------Suras Images Resources ------------------------
+<br/>-------------Suras Images Resources ------------------------
 
-AI Orgin Site for the whole Quran : http://dm.qurancomplex.gov.sa/hafsdownload/
-AI Suras Assets Path : assets/Images_assets/Suras_AIs/
-AI Ayat Assets Path : assets/Images_assets/Ayats_AIs/
-PNG Files : assets/Images_assets/Ayats_Png/
+<br/>AI Orgin Site for the whole Quran : http://dm.qurancomplex.gov.sa/hafsdownload/
+<br/>AI Suras Assets Path : assets/Images_assets/Suras_AIs/
+<br/>AI Ayat Assets Path : assets/Images_assets/Ayats_AIs/
+<br/>PNG Files : assets/Images_assets/Ayats_Png/
 
-////////////////////////END
+<br/>////////////////////////END
 
--------------Sounds Resources ------------------------
-Sound Splitting tool (برنامج تقطيع الاصوات): http://www.nch.com.au/wavepad/index.html
-Sounds Orgin resource sites : 
-{
+<br/>-------------Sounds Resources ------------------------
+<br/>Sound Splitting tool (برنامج تقطيع الاصوات): http://www.nch.com.au/wavepad/index.html
+<br/>Sounds Orgin resource sites : 
+<br/>{
   * http://www.versebyversequran.com/site/mp3-status/
   * http://islamhouse.com/ar/quran/422812/
   * http://islamhouse.com/ar/audios/335309/
   * http://islamhouse.com/ar/audios/335296/
-}
-Applications Sounds Path
-Khalefa Altangy (خليفة الطنجي): /assets/mp3_compress/1.zip
-Mohammad Elmenshawi (محمد المنشاوي): /assets/mp3_compress/1.zip
-Alsudais(السديس) : /assets/mp3_compress/1.zip
+<br/>}
+<br/>Applications Sounds Path
+<br/>Khalefa Altangy (خليفة الطنجي): /assets/mp3_compress/1.zip
+<br/>Mohammad Elmenshawi (محمد المنشاوي): /assets/mp3_compress/1.zip
+<br/>Alsudais(السديس) : /assets/mp3_compress/1.zip
+<br/>
 Mshari Alefasy (مشاري العفاسي): /assets/mp3_compress/1.zip
+<br/>
 Ibrahim Aldosary(ابراهيم الدوسري رواية ورش) : /assets/mp3_compress/1.zip
+<br/>
 ////////////////////////END
+<br/>
 Mobile Theme PSD Main File 
+<br/>
 assets/APP_Base_GUI.psd
+<br/>
 ------------------------------------
+<br/>
 (Android Version)
-
+<br/>
 Features:
 SQLITE Data Base Manager
 <br/>
